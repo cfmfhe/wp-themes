@@ -32,7 +32,7 @@ function custom_downloads_columns( $columns ){
 add_action( 'woocommerce_account_downloads_columns', 'custom_downloads_columns', 10, 1 ); // Orders and account
 add_action( 'woocommerce_email_downloads_columns', 'custom_downloads_columns', 10, 1 ); // Email notifications
 
-// add google tagmanager code
+// add pinterest verify code
 function add_pinterest_verify() {
    echo '<!-- Pinterest Verify -->';
    echo '<meta name="p:domain_verify" content="be12f449630292b6997c0c48f3aecba9"/>';
